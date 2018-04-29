@@ -1,109 +1,385 @@
 <!DOCTYPE html>
-<!--[if IE 8]>			<html class="ie ie8"> <![endif]-->
-<!--[if IE 9]>			<html class="ie ie9"> <![endif]-->
-<!--[if gt IE 9]><!-->	<html> <!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <title>Works</title>
+<!--[if IEMobile 7]><html class="iem7"  lang="en" dir="ltr"><![endif]-->
+<!--[if lte IE 6]><html class="lt-ie9 lt-ie8 lt-ie7"  lang="en" dir="ltr"><![endif]-->
+<!--[if (IE 7)&(!IEMobile)]><html class="lt-ie9 lt-ie8"  lang="en" dir="ltr"><![endif]-->
+<!--[if IE 8]><html class="lt-ie9"  lang="en" dir="ltr"><![endif]-->
+<!--[if (gte IE 9)|(gt IEMobile 7)]><!--><html class="mdq-aware"  lang="en" dir="ltr"
+                                               xmlns:content="http://purl.org/rss/1.0/modules/content/"
+                                               xmlns:dc="http://purl.org/dc/terms/"
+                                               xmlns:foaf="http://xmlns.com/foaf/0.1/"
+                                               xmlns:og="http://ogp.me/ns#"
+                                               xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                                               xmlns:sioc="http://rdfs.org/sioc/ns#"
+                                               xmlns:sioct="http://rdfs.org/sioc/types#"
+                                               xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+                                               xmlns:xsd="http://www.w3.org/2001/XMLSchema#"><!--<![endif]-->
 
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            
-        <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
-        <script type='text/javascript' src='vendor/unitegallery/js/unitegallery.min.js'></script> 
-        <link rel='stylesheet' href='vendor/unitegallery/css/unite-gallery.css' type='text/css' />
-        <link rel='stylesheet' href='vendor/unitegallery/themes/default/ug-theme-default.css' type='text/css' /> 
+<head profile="http://www.w3.org/1999/xhtml/vocab">
 
-        <script type='text/javascript' src='vendor/unitegallery/themes/tiles/ug-theme-tiles.js'></script> 
-            
-        </head>
-<body>
-    <div id="gallery" style="display:none;">
-		
-    </div>
+    <meta charset="utf-8" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/vnd.microsoft.icon" />
+    <title>Kateryna Kosenko | Grafikdesignerin</title>
+    <meta http-equiv="cleartype" content="on">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <meta name="HandheldFriendly" content="true">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+    <meta name="MobileOptimized" content="width">
+    <style>
+        @import url("site/css/system.base.css");
+    </style>
+    <style>
+        @import url("site/css/normalize.css");
+        @import url("site/css/fontfolio.css");
+        @import url("site/css/fontfolio-md-queries.css");
+    </style>
+    <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
 
-    <script>
-        
-        $(document).ready(function(){
-            var galleriesFolder = 'galleries';
-            var thumbsFolder = 'thumbs';
-            var imagesFolder = 'images';
-            var galleriesConf = {
-                gallery_theme: "tiles",
-                tiles_type: "columns",
-                tile_enable_textpanel: true,
-                tile_textpanel_title_text_align: "center",
-                lightbox_textpanel_enable_description: true,
-                tile_as_link:true
-            };
-            var galleryConf = {
-                gallery_theme: "tiles",
-                tiles_type: "columns",
-                tile_enable_textpanel: true,
-                tile_textpanel_title_text_align: "center",
-                lightbox_textpanel_enable_description: true
-            };
+    <!--[if lt IE 9]>
+    <script src="site/js/html5.js"></script>
+    <![endif]-->
+</head>
+<body class="html front not-logged-in page-node no-sidebars" >
+<div id="skip-link">
+    <a href="#content" class="element-invisible element-focusable">Skip to main content</a>
+</div>
+<div id="main_container">
+    <header id="header"><div class="section clearfix">
+        <a href="/" title="" rel="home" class="logo">
+            <img src="site/images/katja.jpg" alt="" />
+        </a>
 
-            var galleries = [
-                {
-                    name: 'Gemälde',
-                    hash: 'gemaelde',
-                    thumb: 'gemaelde_1.jpg',
-                    gallery: [
-                        {thumb: 'gemaelde_1.jpg'},
-                        {thumb: 'gemaelde_2.jpg'},
-                        {thumb: 'gemaelde_3.jpg'},
-                        {thumb: 'gemaelde_4.jpg'},
-                        {thumb: 'gemaelde_5.jpg'},
-                        {thumb: 'gemaelde_6.jpg'}
-                    ]
-                },
-                {
-                    name: 'Schaufenster',
-                    hash: 'schaufenster',
-                    thumb: 'schaufenster1.jpg',
-                    gallery: [
-                        {thumb: 'schaufenster1.jpg'},
-                        {thumb: 'schaufenster2.jpg'},
-                        {thumb: 'schaufenster3.jpg'},
-                        {thumb: 'schaufenster4.jpg'},
-                        {thumb: 'schaufenster5.jpg'},
-                        {thumb: 'schaufenster6.jpg'},
-                        {thumb: 'schaufenster7.jpg'},
-                        {thumb: 'schaufenster8.jpg'},
-                        {thumb: 'schaufenster9.jpg'},
-                        {thumb: 'schaufenster10.jpg'}
-                    ]
-                }
-            ];
+        <div id="name-and-slogan">
+            <h1 id="site-name">
+                <a href="/" title="Home" rel="home"><span>Kateryna Kosenko</span></a>
+            </h1>
 
-            var buildGalleries = function() {
-                var imgs = '';
-                for (var i = 0; i < galleries.length; i++) {
-                    var img = '<img';
-                    img += ' alt="' + galleries[i].name + '"';
-                    img += ' src="' + galleriesFolder + '/' + galleries[i].hash + '/' + thumbsFolder + '/' + galleries[i].thumb + '"';
-                    img += ' data-image=""';
-                    img += ' data-description="" />';
+            <div id="site-slogan">Grafikdesignerin</div>
+        </div>
 
-                    imgs += img;
-               }
-               console.log(imgs);
-                $("#gallery").html(imgs);
-                $("#gallery").unitegallery(galleriesConf);
-            }
 
-            buildGalleries();
+    </div></header>
+    <div id="header_top">
+        <div class="header_top_border"></div>
+        <a class="home-icon toggle" href="/"><img src="site/images/glyphicons_020_home.png"></a>
+        <a class="toggle-nav toggle" href="#header_top"><img src="site/images/icon_nav_toggle-black.gif"></a>
+        <nav class="menu_cont">
+            <div class="social">
+            </div><!--//social-->
+            <h2 class="element-invisible">Menu</h2><ul id="menu" class="links inline clearfix menu"><li class="menu-218 first active"><a href="/" title="" class="active">Portfolio</a></li>
+            <li class="menu-355 last"><a href="/lebenslauf">Lebenslauf</a></li>
+        </ul>              </nav><!--//menu_cont-->
+        <div class="clear"></div>
+    </div> <!-- /#header_top -->
 
-            $("#bt1").click(function(){
-                var t = '<img alt="Image 1 Title" src="thumbs/gemaelde_1.jpg" data-image="images/gemaelde_1.jpg" data-description="Image 1 Description" />';
-                $("#gallery").html(t);
-                initGal();
-                window.location.hash = "test";
-                var gal = galaries[0];
-                console.log(gal.name);
-                console.log(gal.gallery[1].image);
-            });
-        });
-    </script>
-</body>    
+    <div id="content" class="column">
+        <div class="section">
+            <a id="main-content"></a>
+            <div class="tabs"></div>                                                          <div class="region region-content">
+            <div id="block-system-main" class="block block-system">
+
+
+                <div class="content">
+                    <article id="node-14" class="node node-article node-promoted node-teaser odd first big-post-box clearfix" about="/digitalarts" typeof="sioc:Item foaf:Document">
+
+                        <header>
+                            <h3><a href="/digitalarts">Digital Art</a></h3>
+                            <span property="dc:title" content="Digital Art" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>          </header>
+
+                        <div class="content">
+
+
+
+
+                            <div class="field field-name-field-image field-type-image field-label-hidden">
+                                <div class="field-items">
+                                    <div class="field-item even" rel="og:image rdfs:seeAlso" resource="https://katja.kosenko.eu/sites/default/files/styles/medium/public/field/image/Tanya_2017_1.jpg?itok=ZOLyf9iL">
+                                        <a href="/digitalarts"><img typeof="foaf:Image" src="https://katja.kosenko.eu/sites/default/files/styles/medium/public/field/image/Tanya_2017_1.jpg?itok=ZOLyf9iL" width="562" height="464" alt="" /></a>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </article>
+                    <article id="node-1" class="node node-article node-promoted node-teaser even post-box clearfix" about="/gemaelde" typeof="sioc:Item foaf:Document">
+
+                        <header>
+                            <h3><a href="/gemaelde">Gemälde</a></h3>
+                            <span property="dc:title" content="Gemälde" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>          </header>
+
+                        <div class="content">
+
+
+
+
+                            <div class="field field-name-field-image field-type-image field-label-hidden">
+                                <div class="field-items">
+                                    <div class="field-item even" rel="og:image rdfs:seeAlso" resource="https://katja.kosenko.eu/sites/default/files/styles/medium/public/field/image/4YnFp2rsONg.jpg?itok=LtHkd2RT">
+                                        <a href="/gemaelde"><img typeof="foaf:Image" src="https://katja.kosenko.eu/sites/default/files/styles/medium/public/field/image/4YnFp2rsONg.jpg?itok=LtHkd2RT" width="562" height="464" alt="" /></a>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </article>
+                    <article id="node-13" class="node node-article node-promoted node-teaser odd post-box clearfix" about="/schaufenster" typeof="sioc:Item foaf:Document">
+
+                        <header>
+                            <h3><a href="/schaufenster">Schaufenster</a></h3>
+                            <span property="dc:title" content="Schaufenster" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>          </header>
+
+                        <div class="content">
+
+
+
+
+                            <div class="field field-name-field-image field-type-image field-label-hidden">
+                                <div class="field-items">
+                                    <div class="field-item even" rel="og:image rdfs:seeAlso" resource="https://katja.kosenko.eu/sites/default/files/styles/medium/public/field/image/DSC03015.JPG?itok=GdvP5jr7">
+                                        <a href="/schaufenster"><img typeof="foaf:Image" src="https://katja.kosenko.eu/sites/default/files/styles/medium/public/field/image/DSC03015.JPG?itok=GdvP5jr7" width="562" height="464" alt="" /></a>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </article>
+                    <article id="node-3" class="node node-article node-promoted node-teaser even post-box clearfix" about="/postkarten" typeof="sioc:Item foaf:Document">
+
+                        <header>
+                            <h3><a href="/postkarten">Postkarten</a></h3>
+                            <span property="dc:title" content="Postkarten" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>          </header>
+
+                        <div class="content">
+
+
+
+
+                            <div class="field field-name-field-image field-type-image field-label-hidden">
+                                <div class="field-items">
+                                    <div class="field-item even" rel="og:image rdfs:seeAlso" resource="https://katja.kosenko.eu/sites/default/files/styles/medium/public/field/image/DSC_0662.JPG?itok=86e1BEEP">
+                                        <a href="/postkarten"><img typeof="foaf:Image" src="https://katja.kosenko.eu/sites/default/files/styles/medium/public/field/image/DSC_0662.JPG?itok=86e1BEEP" width="562" height="464" alt="" /></a>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </article>
+                    <article id="node-6" class="node node-article node-promoted node-teaser odd post-box clearfix" about="/flyers" typeof="sioc:Item foaf:Document">
+
+                        <header>
+                            <h3><a href="/flyers">Flyer</a></h3>
+                            <span property="dc:title" content="Flyer" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>          </header>
+
+                        <div class="content">
+
+
+
+
+                            <div class="field field-name-field-image field-type-image field-label-hidden">
+                                <div class="field-items">
+                                    <div class="field-item even" rel="og:image rdfs:seeAlso" resource="https://katja.kosenko.eu/sites/default/files/styles/medium/public/field/image/DSC_0667.JPG?itok=B9Pis7Vn">
+                                        <a href="/flyers"><img typeof="foaf:Image" src="https://katja.kosenko.eu/sites/default/files/styles/medium/public/field/image/DSC_0667.JPG?itok=B9Pis7Vn" width="562" height="464" alt="" /></a>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </article>
+                    <article id="node-4" class="node node-article node-promoted node-teaser even post-box clearfix" about="/webbanner" typeof="sioc:Item foaf:Document">
+
+                        <header>
+                            <h3><a href="/webbanner">Webbanner</a></h3>
+                            <span property="dc:title" content="Webbanner" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>          </header>
+
+                        <div class="content">
+
+
+
+
+                            <div class="field field-name-field-image field-type-image field-label-hidden">
+                                <div class="field-items">
+                                    <div class="field-item even" rel="og:image rdfs:seeAlso" resource="https://katja.kosenko.eu/sites/default/files/styles/medium/public/field/image/2d581aedf0896b9296bbec71ae567044cce6a4e1_6c790ff82e76%20%281%29.jpg?itok=1XNQ1-Kk">
+                                        <a href="/webbanner"><img typeof="foaf:Image" src="https://katja.kosenko.eu/sites/default/files/styles/medium/public/field/image/2d581aedf0896b9296bbec71ae567044cce6a4e1_6c790ff82e76%20%281%29.jpg?itok=1XNQ1-Kk" width="562" height="464" alt="" /></a>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </article>
+                    <article id="node-8" class="node node-article node-promoted node-teaser odd post-box clearfix" about="/firmenlogos" typeof="sioc:Item foaf:Document">
+
+                        <header>
+                            <h3><a href="/firmenlogos">Firmenlogos</a></h3>
+                            <span property="dc:title" content="Firmenlogos" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>          </header>
+
+                        <div class="content">
+
+
+
+
+                            <div class="field field-name-field-image field-type-image field-label-hidden">
+                                <div class="field-items">
+                                    <div class="field-item even" rel="og:image rdfs:seeAlso" resource="https://katja.kosenko.eu/sites/default/files/styles/medium/public/field/image/_Logo.jpg?itok=rkDv-yQl">
+                                        <a href="/firmenlogos"><img typeof="foaf:Image" src="https://katja.kosenko.eu/sites/default/files/styles/medium/public/field/image/_Logo.jpg?itok=rkDv-yQl" width="562" height="464" alt="" /></a>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </article>
+                    <article id="node-7" class="node node-article node-promoted node-teaser even post-box clearfix" about="/verpackung" typeof="sioc:Item foaf:Document">
+
+                        <header>
+                            <h3><a href="/verpackung">Verpackung</a></h3>
+                            <span property="dc:title" content="Verpackung" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>          </header>
+
+                        <div class="content">
+
+
+
+
+                            <div class="field field-name-field-image field-type-image field-label-hidden">
+                                <div class="field-items">
+                                    <div class="field-item even" rel="og:image rdfs:seeAlso" resource="https://katja.kosenko.eu/sites/default/files/styles/medium/public/field/image/13.jpg?itok=8mBPVYvv">
+                                        <a href="/verpackung"><img typeof="foaf:Image" src="https://katja.kosenko.eu/sites/default/files/styles/medium/public/field/image/13.jpg?itok=8mBPVYvv" width="562" height="464" alt="" /></a>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </article>
+                    <article id="node-2" class="node node-article node-promoted node-teaser odd post-box clearfix" about="/kalendar" typeof="sioc:Item foaf:Document">
+
+                        <header>
+                            <h3><a href="/kalendar">Kalendar</a></h3>
+                            <span property="dc:title" content="Kalendar" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>          </header>
+
+                        <div class="content">
+
+
+
+
+                            <div class="field field-name-field-image field-type-image field-label-hidden">
+                                <div class="field-items">
+                                    <div class="field-item even" rel="og:image rdfs:seeAlso" resource="https://katja.kosenko.eu/sites/default/files/styles/medium/public/field/image/0db49c2e31b67b8ef207579005376196b0f88371_48d5b5e80aa0.jpg?itok=WH8PqjBO">
+                                        <a href="/kalendar"><img typeof="foaf:Image" src="https://katja.kosenko.eu/sites/default/files/styles/medium/public/field/image/0db49c2e31b67b8ef207579005376196b0f88371_48d5b5e80aa0.jpg?itok=WH8PqjBO" width="562" height="464" alt="" /></a>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </article>
+                    <article id="node-11" class="node node-article node-promoted node-teaser even post-box clearfix" about="/hobbys" typeof="sioc:Item foaf:Document">
+
+                        <header>
+                            <h3><a href="/hobbys">Hobbys</a></h3>
+                            <span property="dc:title" content="Hobbys" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>          </header>
+
+                        <div class="content">
+
+
+
+
+                            <div class="field field-name-field-image field-type-image field-label-hidden">
+                                <div class="field-items">
+                                    <div class="field-item even" rel="og:image rdfs:seeAlso" resource="https://katja.kosenko.eu/sites/default/files/styles/medium/public/field/image/Vasa.JPG?itok=G5b8pKgC">
+                                        <a href="/hobbys"><img typeof="foaf:Image" src="https://katja.kosenko.eu/sites/default/files/styles/medium/public/field/image/Vasa.JPG?itok=G5b8pKgC" width="562" height="464" alt="" /></a>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </article>
+                    <article id="node-10" class="node node-article node-promoted node-teaser odd post-box clearfix" about="/website-layouts" typeof="sioc:Item foaf:Document">
+
+                        <header>
+                            <h3><a href="/website-layouts">Website Layouts</a></h3>
+                            <span property="dc:title" content="Website Layouts" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>          </header>
+
+                        <div class="content">
+
+
+
+
+                            <div class="field field-name-field-image field-type-image field-label-hidden">
+                                <div class="field-items">
+                                    <div class="field-item even" rel="og:image rdfs:seeAlso" resource="https://katja.kosenko.eu/sites/default/files/styles/medium/public/field/image/88ade317196e0c7ddccbcde06bb030dcf4b93f34_6ebd9668443f.jpg?itok=QW3wUNla">
+                                        <a href="/website-layouts"><img typeof="foaf:Image" src="https://katja.kosenko.eu/sites/default/files/styles/medium/public/field/image/88ade317196e0c7ddccbcde06bb030dcf4b93f34_6ebd9668443f.jpg?itok=QW3wUNla" width="562" height="464" alt="&lt;div onlick=&#039;alert(1)&#039;&gt;https://test.org.ua&lt;/div&gt;" /></a>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </article>
+                    <article id="node-5" class="node node-article node-promoted node-teaser even post-box clearfix" about="/bigboards" typeof="sioc:Item foaf:Document">
+
+                        <header>
+                            <h3><a href="/bigboards">Bigboards</a></h3>
+                            <span property="dc:title" content="Bigboards" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>          </header>
+
+                        <div class="content">
+
+
+
+
+                            <div class="field field-name-field-image field-type-image field-label-hidden">
+                                <div class="field-items">
+                                    <div class="field-item even" rel="og:image rdfs:seeAlso" resource="https://katja.kosenko.eu/sites/default/files/styles/medium/public/field/image/Danova_luchi_dira.jpg?itok=wcyRwTmL">
+                                        <a href="/bigboards"><img typeof="foaf:Image" src="https://katja.kosenko.eu/sites/default/files/styles/medium/public/field/image/Danova_luchi_dira.jpg?itok=wcyRwTmL" width="562" height="464" alt="" /></a>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </article>
+                    <article id="node-9" class="node node-article node-promoted node-teaser odd post-box clearfix" about="/geschenkideen" typeof="sioc:Item foaf:Document">
+
+                        <header>
+                            <h3><a href="/geschenkideen">Bildideen</a></h3>
+                            <span property="dc:title" content="Bildideen" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>          </header>
+
+                        <div class="content">
+
+
+
+
+                            <div class="field field-name-field-image field-type-image field-label-hidden">
+                                <div class="field-items">
+                                    <div class="field-item even" rel="og:image rdfs:seeAlso" resource="https://katja.kosenko.eu/sites/default/files/styles/medium/public/field/image/Katya.jpg?itok=7SZsJP8W">
+                                        <a href="/geschenkideen"><img typeof="foaf:Image" src="https://katja.kosenko.eu/sites/default/files/styles/medium/public/field/image/Katya.jpg?itok=7SZsJP8W" width="562" height="464" alt="" /></a>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </article>
+                </div> <!-- /.content -->
+
+            </div> <!-- /.block -->
+        </div>
+
+        </div>
+    </div> <!-- /.section, /#content -->
+    <footer id="footer">
+        <section class="section">
+        </section>
+    </footer> <!-- /.section, /#footer -->
+
+</div> <!-- /#main_container -->
+
+</body>
 </html>
