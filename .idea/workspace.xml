@@ -2,43 +2,44 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4379eda6-9ea5-4bdf-9b22-04f0c7955ae5" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/LICENSE.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/css/font-awesome.min.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/css/ie8.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/css/ie9.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/css/images/bg.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/css/images/ie/grad0-20.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/css/main.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/FontAwesome.otf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/fontawesome-webfont.eot" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/fontawesome-webfont.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/fontawesome-webfont.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/fontawesome-webfont.woff" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/fontawesome-webfont.woff2" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/js/ie/PIE.htc" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/js/ie/html5shiv.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/js/ie/respond.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/js/jquery.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/js/jquery.scrolly.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/js/main.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/js/skel-viewport.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/js/skel.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/js/util.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/sass/ie8.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/sass/ie9.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/sass/libs/_functions.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/sass/libs/_mixins.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/sass/libs/_skel.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/sass/libs/_vars.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/sass/main.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/pic00.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/pic01.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/pic02.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/pic03.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/pic04.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/pic05.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/pic06.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/index.html" afterPath="" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/LICENSE.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/css/font-awesome.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/css/ie8.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/css/ie9.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/css/images/bg.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/css/images/ie/grad0-20.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/css/main.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/fonts/FontAwesome.otf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/fonts/fontawesome-webfont.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/fonts/fontawesome-webfont.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/fonts/fontawesome-webfont.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/fonts/fontawesome-webfont.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/fonts/fontawesome-webfont.woff2" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/js/ie/PIE.htc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/js/ie/html5shiv.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/js/ie/respond.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/js/jquery.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/js/jquery.scrolly.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/js/main.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/js/skel-viewport.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/js/skel.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/js/util.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/sass/ie8.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/sass/ie9.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/sass/libs/_functions.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/sass/libs/_mixins.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/sass/libs/_skel.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/sass/libs/_vars.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/sass/main.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/pic00.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/pic01.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/pic02.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/pic03.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/pic04.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/pic05.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/pic06.jpg" />
+      <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -48,7 +49,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -88,8 +89,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -101,6 +100,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -135,11 +136,12 @@
       <updated>1525022914283</updated>
       <workItem from="1525022915421" duration="1056000" />
       <workItem from="1525024009092" duration="3479000" />
+      <workItem from="1525036407238" duration="62000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4535000" />
+    <option name="totallyTimeSpent" value="4597000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="20" y="43" width="1400" height="785" extended-state="0" />
@@ -150,12 +152,12 @@
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.8232819" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39691445" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -180,7 +182,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -188,7 +189,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -196,7 +196,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="2" lean-forward="false" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
-          <folding />
         </state>
       </provider>
     </entry>
