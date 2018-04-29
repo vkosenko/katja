@@ -331,7 +331,6 @@ ul.menu {
 }
 
 #single_left {
-    float: left; /* LTR */
     width: 700px;
 }
 
