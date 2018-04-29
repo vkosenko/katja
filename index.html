@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<!--[if IE 8]>			<html class="ie ie8"> <![endif]-->
+<!--[if IE 9]>			<html class="ie ie9"> <![endif]-->
+<!--[if gt IE 9]><!-->	<html> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <title>Works</title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            
+        <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+        <script type='text/javascript' src='vendor/unitegallery/js/unitegallery.min.js'></script> 
+        <link rel='stylesheet' href='vendor/unitegallery/css/unite-gallery.css' type='text/css' />
+        <link rel='stylesheet' href='vendor/unitegallery/themes/default/ug-theme-default.css' type='text/css' /> 
+
+        <script type='text/javascript' src='vendor/unitegallery/themes/tiles/ug-theme-tiles.js'></script> 
+            
+        </head>
+<body>
+    <div id="gallery" style="display:none;">
+		
+    </div>
+
+    <script>
+        
+        $(document).ready(function(){
+            var galleriesFolder = 'galleries';
+            var thumbsFolder = 'thumbs';
+            var imagesFolder = 'images';
+            var galleriesConf = {
+                gallery_theme: "tiles",
+                tiles_type: "columns",
+                tile_enable_textpanel: true,
+                tile_textpanel_title_text_align: "center",
+                lightbox_textpanel_enable_description: true,
+                tile_as_link:true
+            };
+            var galleryConf = {
+                gallery_theme: "tiles",
+                tiles_type: "columns",
+                tile_enable_textpanel: true,
+                tile_textpanel_title_text_align: "center",
+                lightbox_textpanel_enable_description: true
+            };
+
+            var galleries = [
+                {
+                    name: 'Gemälde',
+                    hash: 'gemaelde',
+                    thumb: 'gemaelde_1.jpg',
+                    gallery: [
+                        {thumb: 'gemaelde_1.jpg'},
+                        {thumb: 'gemaelde_2.jpg'},
+                        {thumb: 'gemaelde_3.jpg'},
+                        {thumb: 'gemaelde_4.jpg'},
+                        {thumb: 'gemaelde_5.jpg'},
+                        {thumb: 'gemaelde_6.jpg'}
+                    ]
+                },
+                {
+                    name: 'Schaufenster',
+                    hash: 'schaufenster',
+                    thumb: 'schaufenster1.jpg',
+                    gallery: [
+                        {thumb: 'schaufenster1.jpg'},
+                        {thumb: 'schaufenster2.jpg'},
+                        {thumb: 'schaufenster3.jpg'},
+                        {thumb: 'schaufenster4.jpg'},
+                        {thumb: 'schaufenster5.jpg'},
+                        {thumb: 'schaufenster6.jpg'},
+                        {thumb: 'schaufenster7.jpg'},
+                        {thumb: 'schaufenster8.jpg'},
+                        {thumb: 'schaufenster9.jpg'},
+                        {thumb: 'schaufenster10.jpg'}
+                    ]
+                }
+            ];
+
+            var buildGalleries = function() {
+                var imgs = '';
+                for (var i = 0; i < galleries.length; i++) {
+                    var img = '<img';
+                    img += ' alt="' + galleries[i].name + '"';
+                    img += ' src="' + galleriesFolder + '/' + galleries[i].hash + '/' + thumbsFolder + '/' + galleries[i].thumb + '"';
+                    img += ' data-image=""';
+                    img += ' data-description="" />';
+
+                    imgs += img;
+               }
+               console.log(imgs);
+                $("#gallery").html(imgs);
+                $("#gallery").unitegallery(galleriesConf);
+            }
+
+            buildGalleries();
+
+            $("#bt1").click(function(){
+                var t = '<img alt="Image 1 Title" src="thumbs/gemaelde_1.jpg" data-image="images/gemaelde_1.jpg" data-description="Image 1 Description" />';
+                $("#gallery").html(t);
+                initGal();
+                window.location.hash = "test";
+                var gal = galaries[0];
+                console.log(gal.name);
+                console.log(gal.gallery[1].image);
+            });
+        });
+    </script>
+</body>    
+
+</html>
