@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4379eda6-9ea5-4bdf-9b22-04f0c7955ae5" name="Default" comment="" />
+    <list default="true" id="4379eda6-9ea5-4bdf-9b22-04f0c7955ae5" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/lebenslauf.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/site/images/download.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/site/images/print.png" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/gallery.html" afterPath="$PROJECT_DIR$/gallery.html" />
+      <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,8 +21,8 @@
       <file leaf-file-name="gallery.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gallery.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="119" column="0" lean-forward="false" selection-start-line="119" selection-start-column="0" selection-end-line="119" selection-end-column="0" />
+            <state relative-caret-position="282">
+              <caret line="78" column="61" lean-forward="false" selection-start-line="78" selection-start-column="61" selection-end-line="78" selection-end-column="61" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -26,9 +33,22 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="433">
-              <caret line="406" column="99" lean-forward="false" selection-start-line="406" selection-start-column="99" selection-end-line="406" selection-end-column="99" />
+            <state relative-caret-position="206">
+              <caret line="72" column="61" lean-forward="false" selection-start-line="72" selection-start-column="61" selection-end-line="72" selection-end-column="61" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lebenslauf.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lebenslauf.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="260" column="257" lean-forward="false" selection-start-line="260" selection-start-column="257" selection-end-line="260" selection-end-column="257" />
+              <folding>
+                <element signature="e#11932#11937#0" expanded="true" />
+                <element signature="e#13977#13982#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -43,7 +63,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="galleries.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="galleries.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/site/js/galleries.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
@@ -120,8 +140,9 @@
         <option value="$PROJECT_DIR$/site/css/fontfolio.css" />
         <option value="$PROJECT_DIR$/site/js/script.js" />
         <option value="$PROJECT_DIR$/site/js/galleries.js" />
-        <option value="$PROJECT_DIR$/gallery.html" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/gallery.html" />
+        <option value="$PROJECT_DIR$/lebenslauf.html" />
       </list>
     </option>
   </component>
@@ -163,31 +184,13 @@
             <path>
               <item name="katja" type="b2602c69:ProjectViewProjectNode" />
               <item name="katja" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="galleries" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="site" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="katja" type="b2602c69:ProjectViewProjectNode" />
               <item name="katja" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="galleries" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="gemaelde" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="katja" type="b2602c69:ProjectViewProjectNode" />
-              <item name="katja" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="galleries" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="gemaelde" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="site" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="images" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="katja" type="b2602c69:ProjectViewProjectNode" />
-              <item name="katja" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="site" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="katja" type="b2602c69:ProjectViewProjectNode" />
-              <item name="katja" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="site" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -202,6 +205,11 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -230,12 +238,12 @@
       <updated>1525022914283</updated>
       <workItem from="1525022915421" duration="1056000" />
       <workItem from="1525024009092" duration="3479000" />
-      <workItem from="1525036407238" duration="12194000" />
+      <workItem from="1525036407238" duration="12986000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16729000" />
+    <option name="totallyTimeSpent" value="17521000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="20" y="43" width="1400" height="785" extended-state="0" />
@@ -389,16 +397,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gallery.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="119" column="0" lean-forward="false" selection-start-line="119" selection-start-column="0" selection-end-line="119" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/galleries/gemaelde/images/gemaelde_2.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -424,19 +422,40 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="406" column="99" lean-forward="false" selection-start-line="406" selection-start-column="99" selection-end-line="406" selection-end-column="99" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/site/js/galleries.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="34" lean-forward="false" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="72" column="61" lean-forward="false" selection-start-line="72" selection-start-column="61" selection-end-line="72" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gallery.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="78" column="61" lean-forward="false" selection-start-line="78" selection-start-column="61" selection-end-line="78" selection-end-column="61" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lebenslauf.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="260" column="257" lean-forward="false" selection-start-line="260" selection-start-column="257" selection-end-line="260" selection-end-column="257" />
+          <folding>
+            <element signature="e#11932#11937#0" expanded="true" />
+            <element signature="e#13977#13982#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
