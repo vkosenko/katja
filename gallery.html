@@ -86,7 +86,7 @@
             <div class="tabs"></div>                                                          <div class="region region-content">
             <div id="block-system-main" class="block block-system">
                 <div id="single_left">
-                    <h1 class="title" id="page-title">Gemälde</h1>
+                    <h1 class="title" id="page-title"></h1>
                 </div>
                 <div class="content">
 
@@ -183,6 +183,7 @@
                             if (galleryIndex === false) {
                                 $("#gallery").show().html("ERROR: INVALID GALLERY");
                             } else {
+                                $("#page-title").html(galleries[galleryIndex].name);
                                 buildGallery(galleryIndex);
                             }
 
